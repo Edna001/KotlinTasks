@@ -14,10 +14,9 @@ var b=0
 fun main() {
 
     println("შეცვლამდე: a = $firstNumber, b = $secondNumber")
-    swapTwoNumbersWithTemp(firstNumber,secondNumber)git checkout newBranch
+    swapTwoNumbersWithTemp(firstNumber,secondNumber)
 
-
-            println("მესამე ცვლადის გამოყენებით: a = $a, b = $b")
+    println("მესამე ცვლადის გამოყენებით: a = $a, b = $b")
     swapTwoNumbersWithoutTemp(firstNumber,secondNumber)
 
     println("მესამე ცვლადის გარეშე: a = $a, b = $b")
