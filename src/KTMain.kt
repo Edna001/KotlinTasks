@@ -8,41 +8,28 @@
 
 var firstNumber = 26
 var secondNumber = 7
-var a=0
-var b=0
 
 fun main() {
 
     println("შეცვლამდე: a = $firstNumber, b = $secondNumber")
-    swapTwoNumbersWithTemp(firstNumber,secondNumber)git checkout newBranch
+    swapTwoNumbersWithTemp()
 
+    println("მესამე ცვლადის გამოყენებით: a = $firstNumber, b = $secondNumber")
+    swapTwoNumbersWithoutTemp()
 
-            println("მესამე ცვლადის გამოყენებით: a = $a, b = $b")
-    swapTwoNumbersWithoutTemp(firstNumber,secondNumber)
-
-    println("მესამე ცვლადის გარეშე: a = $a, b = $b")
+    println("მესამე ცვლადის გარეშე: a = $firstNumber, b = $secondNumber")
 }
 
 //მესამე ცვლადის გამოყენებით
-fun swapTwoNumbersWithTemp(firstNumber: Int, secondNumber: Int) : Pair<Int,Int> {
-    a=firstNumber
-    b=secondNumber
-    var c=a
-    a=b
-    b=c
-
-    return Pair (a,b)
+fun swapTwoNumbersWithTemp() {
+    val temporary = firstNumber
+    firstNumber = secondNumber
+    secondNumber = temporary
 }
 
 //მესამე ცვლადის გარეშე
-fun swapTwoNumbersWithoutTemp(firstNumber:Int, secondNumber: Int): Pair<Int,Int> {
-
-
-    a=firstNumber
-    b=secondNumber
-    a=a-b
-    b=a+b
-    a=b-a
-
-    return Pair(a,b)
+fun swapTwoNumbersWithoutTemp() {
+    firstNumber = firstNumber - secondNumber
+    secondNumber = firstNumber + secondNumber
+    firstNumber = secondNumber - firstNumber
 }
