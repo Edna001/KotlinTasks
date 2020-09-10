@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b8d49b5-0a38-4124-a233-ce50cbdb592a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTasks/KTMainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTasks/KTMainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinTasks/META-INF/KotlinTasks.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinTasks/META-INF/KotlinTasks.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KTMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KTMain.kt" afterDir="false" />
-    </list>
+    <list default="true" id="0b8d49b5-0a38-4124-a233-ce50cbdb592a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,28 +121,28 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1599738439346" />
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1599741556085">
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1599742060534">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1599741556085" />
-    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1599741556084">
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1599742060534" />
+    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1599742060534">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1599741556084" />
-    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1599741556084">
+    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1599742060534" />
+    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1599742060534">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1599741556084" />
-    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1599741556085">
+    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1599742060534" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1599742060534">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1599741556085" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1599742060534" />
     <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1599727379909">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1599727379909" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/KotlinTasks12$KTMainKt.ic" NAME="KTMainKt Coverage Results" MODIFIED="1599741556032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/KotlinTasks12$KTMainKt.ic" NAME="KTMainKt Coverage Results" MODIFIED="1599741975330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
