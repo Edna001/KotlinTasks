@@ -1,35 +1,22 @@
 /*
-შეცვალე მოცემულ ორ რიცხვის ადგილები:
- 1. მესამე ცვლადის გამოყენებით,
- 2. მესამე ცვლადის გარეშე.
-
- მაგალითად, თუ გაქვს a=2 და b=7, საბოლოოდ უნდა გქონდეს a=7 და b=2.
+    პროგრამამ უნდა აჩვენოს ყველა მარტივი რიცხვი კლავიატურიდან გამოსულ ორ ინტერვალს შორის
 */
-
-var firstNumber = 26
-var secondNumber = 7
 
 fun main() {
 
-    println("შეცვლამდე: a = $firstNumber, b = $secondNumber")
-    swapTwoNumbersWithTemp()
+    println("შემოიტანე პირველი რიცხვი:")
+    val startInterval = readLine()
 
-    println("მესამე ცვლადის გამოყენებით: a = $firstNumber, b = $secondNumber")
-    swapTwoNumbersWithoutTemp()
+    println("შემოიტანე მეორე რიცხვი:")
+    val endInterval = readLine()
 
-    println("მესამე ცვლადის გარეშე: a = $firstNumber, b = $secondNumber")
+    printPrimeNumbers(startInterval!!.toInt(), endInterval!!.toInt())
 }
 
-//მესამე ცვლადის გამოყენებით
-fun swapTwoNumbersWithTemp() {
-    val temporary = firstNumber
-    firstNumber = secondNumber
-    secondNumber = temporary
-}
+fun printPrimeNumbers(start: Int, end: Int) {
+    //ეს ცვლადი უნდა გამოიყენო ))
+    var startInt = start
 
-//მესამე ცვლადის გარეშე
-fun swapTwoNumbersWithoutTemp() {
-    firstNumber = firstNumber - secondNumber
-    secondNumber = firstNumber + secondNumber
-    firstNumber = secondNumber - firstNumber
+    //მარტივად გააკეთებ while და for ციკლებით, ორივე შეგიძლია გამოიყენო
+
 }
